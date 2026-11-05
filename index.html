@@ -6,52 +6,67 @@
   <title>十年</title>
   <style>
     body {
-      margin: 0;
-      font-family: Arial, "Microsoft YaHei", sans-serif;
-      background: linear-gradient(135deg, #f4f7ff, #eefaf6);
-      color: #222;
-    }
+  margin: 0;
+  padding: 32px 18px;
+  min-height: 100vh;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  color: #243047;
+  background: linear-gradient(135deg, #eef2ff, #f0fdf4);
+}
 
-    .container {
-      max-width: 800px;
-      margin: 80px auto;
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 18px;
-      padding: 40px 30px;
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-    }
+.container {
+  max-width: 760px;
+  margin: 50px auto;
+  padding: 42px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #e5eaf2;
+  border-radius: 24px;
+  box-shadow: 0 18px 50px rgba(35, 54, 90, 0.12);
+}
 
-    h1 {
-      margin-bottom: 8px;
-      font-size: 42px;
-      color: #1d3557;
-    }
+h1 {
+  margin: 0 0 12px;
+  color: #243b6b;
+  font-size: 42px;
+}
 
-    .subtitle {
-      font-size: 18px;
-      color: #457b9d;
-      margin-bottom: 20px;
-    }
+.subtitle {
+  margin-bottom: 24px;
+  color: #54709a;
+  font-size: 16px;
+  line-height: 1.8;
+}
 
-    .intro {
-      font-size: 18px;
-      line-height: 1.8;
-      margin-bottom: 30px;
-    }
+.intro {
+  margin-bottom: 28px;
+  font-size: 17px;
+  line-height: 1.9;
+}
 
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 20px;
-    }
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-    .tag {
-      background: #e0f2fe;
-      color: #075985;
-      padding: 8px 14px;
-      border-radius: 999px;
-      font-size: 14px;
+.tag {
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: #31568e;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px auto;
+    padding: 28px 22px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+}
     }
   </style>
 </head>
